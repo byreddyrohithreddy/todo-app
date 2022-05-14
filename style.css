@@ -1,0 +1,153 @@
+body
+{
+    background-image: url('pexels-felix-mittermeier-956981.jpg');
+    background-size: cover;
+}
+.todo
+{
+    display: flex;
+    width: 80%;
+    margin: 0% 10%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.todo h1 
+{
+    color: white;
+    font-size: 80px;
+}
+.ent
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 4%;
+    border-bottom: 3px solid rgb(199, 193, 193);
+}
+.ent input 
+{
+    display: flex;
+    width: 30%;
+    padding: 1.2%;
+    background: rgb(4,6,48);
+    background: linear-gradient(90deg, rgba(4,6,48,0.9867297260701156) 21%, rgba(25,54,134,1) 81%);
+    opacity: .9;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.ent a 
+{
+    background-color:rgba(25,54,134,1)  ;
+    padding: .2%;
+    opacity: .9;
+    cursor: pointer;
+    
+}
+.ent #one
+{
+ font-size: 40px;  
+}
+.ent a:hover 
+{
+    color: rgb(15, 15, 17);
+}
+.ent b
+{
+    background-color:rgba(25,54,134,1)  ;
+    padding: .2%;
+    opacity: .9;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+.ent b:hover 
+{
+    color: rgb(20, 20, 22);
+}
+::placeholder {
+    color: white;
+    opacity: .6 ;
+    font-size: 18px;
+    padding-left: 3%;
+  }
+  .list 
+  {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      padding-top: 5%;
+      flex-direction: row;
+  }
+  p 
+  {
+      font-size: 40px;
+  }
+  .list .list-item 
+  {
+    display: flex;
+    font-size: 20px;
+    width: 15%;
+    height: 300px;
+    margin-right:5% ;
+    background: rgb(64,73,164);
+    background: radial-gradient(circle, rgba(64,73,164,1) 0%, rgba(8,11,68,1) 100%);
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    opacity: .8;
+    border-radius: 20px;
+    box-shadow: 0px 2px 16px rgb(46, 45, 45);
+    word-wrap: break-word;
+  }
+  .list .list-item b
+  {
+      width: 90%;
+      padding: 5%;
+      text-align: center;
+  }
+  .list .list-item input.check 
+  {
+      width: 30px;
+      height: 19.5px;
+  }
+  @media screen and (max-width: 700px)
+  {
+    .ent 
+    {
+        padding-bottom: 10%;
+    }
+    .ent input
+    {
+        display: flex;
+        width: 100%;
+    }
+    .list 
+    {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .list .list-item 
+      {
+        display: flex;
+        font-size: 20px;
+        width: 60%;
+        height: 250px;
+        margin:5% ;
+        background: rgb(64,73,164);
+        background: radial-gradient(circle, rgba(64,73,164,1) 0%, rgba(8,11,68,1) 100%);
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        opacity: .8;
+        border-radius: 20px;
+        box-shadow: 0px 2px 16px rgb(46, 45, 45);
+        word-wrap: break-word;
+      }
+  }
